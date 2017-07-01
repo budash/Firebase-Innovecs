@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "495124258277",
+    "firebase_url": "https://test-innovecs.firebaseio.com",
+    "project_id": "test-innovecs",
+    "storage_bucket": "test-innovecs.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:495124258277:android:b057a5a35e88b8db",
+        "android_client_info": {
+          "package_name": "ua.dp.budash.mika.firebaseinnovecs"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "495124258277-m86lr8p7mr8o7s5vct8dj8gem11rungp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5uFbsrYxd3x5zAidqGMxIrPMJwlur-2k"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
