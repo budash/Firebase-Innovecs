@@ -97,7 +97,7 @@ public class MainActivity extends AppCompatActivity {
             processingHandler.post(new Runnable() {
                 @Override
                 public void run() {
-                    final String converted = Utils.process(message, currentIgnoreWords);
+                    final String converted = Utils.filter(message, currentIgnoreWords);
 
                     uiHandler.post(new Runnable() {
                         @Override

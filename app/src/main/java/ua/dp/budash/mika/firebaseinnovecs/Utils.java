@@ -6,9 +6,9 @@ package ua.dp.budash.mika.firebaseinnovecs;
 
 public class Utils {
 
-    static String process(String original, String[] ignores) {
+    static String filter(String original, String[] ignores) {
         for (String i : ignores) {
-            original = original.replaceAll("(?i)" + i, "*****");
+            original = original.replaceAll("(?i)\\b" + i + "\\b", "*****");
         }
         return original;
     }
