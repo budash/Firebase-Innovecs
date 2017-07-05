@@ -173,8 +173,7 @@ public class MainActivity extends AppCompatActivity {
             wordsView.setText(value);
             boolean wasInit = currentIgnoreWords != null;
 
-            value = value.replaceAll("\\s+", "");
-            currentIgnoreWords = value.split(",");
+            currentIgnoreWords = value.replaceAll("[\\s\\W]+", ",").split(",");
             if (!wasInit) {
                 for (String s : waitingMessages) {
                     processMessage(s);
